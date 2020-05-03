@@ -1,43 +1,100 @@
 body {
-    margin: 60px auto;
-    width: 70%;
-}
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+	/*60% opacity for background */ 
+	background-color:rgb(255,179,186,0.6);
+	
+	background-image: url("pastel_ocean.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+h1{
+	color: white;
+	font-family: monospace;
+	font-style: bold;
+	font-weight: 100;
+	font-size: 600%;
+	text-align: center;
+	
 }
 
-ul.posts li {
-    list-style: none;
+
+
+p.a{
+	color: white;
+	font-family: courier;
+	font-size: 110%;
+	text-align: center;
+}
+
+ul{
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:rgb(255,179,186,0.6);
+}
+li {
+  text-align: center;
+  display: inline-block;
+  color: black;
+  font-size: 140%;
+  font-family: monospace;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(255,179,186,0.1);
+}
+
+div.background {
+
+background: url(green-tile.jpg) repeat;
+
+/*border: 2px solid black; */
+
+}
+
+div.transbox {
+
+margin: 10px;
+
+background-color: #ffffff;
+
+border: 1px solid white; 
+
+opacity: 0.6;
+
+filter: alpha(opacity=60); /* For IE8 and earlier */
+
+position: static;
+
+right: 0px;
+
+left: 170px;
+
+width: 1870px;
+
+height: 1870px;
+
+}
+
+div.transbox p {
+
+margin: 5%;
+
+font-weight: bold;
+
+font-family: Verdana;
+
+font-size: 12px;
+
+color: #000000;
+
 }
