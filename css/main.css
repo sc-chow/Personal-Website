@@ -1,10 +1,12 @@
 body {
 	/*60% opacity for background */ 
-	background-color:rgb(255,179,186,0.6);
+	background: url("../img/pastel_ocean.jpg") no-repeat cover rgb(255,179,186,0.6);
+	/*background-color:rgb(255,179,186,0.6);
 	
 	background-image: url("../img/pastel_ocean.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	*/
 }
 
 h1{
