@@ -1,12 +1,6 @@
 body {
 	/*60% opacity for background */ 
 	background: url("../img/pastel_ocean.jpg") no-repeat cover rgb(255,179,186,0.6);
-	/*background-color:rgb(255,179,186,0.6);
-	
-	background-image: url("../img/pastel_ocean.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	*/
 }
 
 h1{
@@ -57,7 +51,7 @@ li a:hover {
 
 div.background {
 
-background: url(green-tile.jpg) repeat;
+/*background: url(green-tile.jpg) repeat;*/
 
 /*border: 2px solid black; */
 
