@@ -4,7 +4,7 @@ body {
 }
 
 h1{
-	color: white;
+	color: #AEC6CF;
 	font-family: monospace;
 	font-style: bold;
 	font-weight: 100;
@@ -16,7 +16,7 @@ h1{
 
 
 p.a{
-	color: white;
+	color: #AEC6CF;
 	font-family: courier;
 	font-size: 110%;
 	text-align: center;
@@ -32,14 +32,14 @@ ul{
 li {
   text-align: center;
   display: inline-block;
-  color: black;
+  color: #FFFFFF;
   font-size: 140%;
   font-family: monospace;
 }
 
 li a {
   display: block;
-  color: white;
+  color: #FFFFFF;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
