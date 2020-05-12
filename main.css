@@ -24,7 +24,7 @@ h1{
 }
 
 p.description{
-	color: #fffff;
+	color: #ffffff;
 	font-family: courier;
 	font-size: 110%;
 	text-align: center;
@@ -33,17 +33,18 @@ p.description{
 .tabmenu{
 	overflow: hidden;
 	background-color: #fbaaaa;
-	border: 1px solid #ffffff;
+	border: 1px solid #000000;
 }
 
 .tabmenu button{
 	background color:
 }
-	background-color:rgb(255,179,186,0.6);
+	background-color:inherit;
 	float: left;
 	border: none;
 	outline: none;
 	cursor: pointer;
+	padding: 14px 16px;
 	transition: 0.3s;
 }
 .tabmenu button:hover{
@@ -51,12 +52,12 @@ p.description{
 }
 
 .tabmenu button.active{
-	bckground: color: #ccc;
+	background-color: #ccc;
 }
 
 .tabcontent{
 	color: black;
-	display: none;
+	display: block;
 	border: 1px solid #ffffff;
 	border-top: none;
 }
