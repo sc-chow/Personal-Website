@@ -1,4 +1,4 @@
-function openTab(pageName, element){
+function openTab(evnt,pageName){
   var i, tabcontent,tablink;
   tabcontent = document.getElementbyClassName("tabcontent");
   for(i = 0; i<tabcontent.length;i++){
@@ -6,9 +6,9 @@ function openTab(pageName, element){
   }
   tablink = document.getElementbyClassName("tablink");
   for(i = 0; i<tablink.length;i++){
-    tablink[i].style.backgroundColor = "";
+    tablink[i].className = tablink[i].className.replace("active","");
   }
   
   document.getElementById(pageName).style.display = "block";
+  evt.currentTarget.className += "active";
 }
-document.getElementById("defaultOpen").click();

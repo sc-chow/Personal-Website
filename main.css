@@ -30,6 +30,12 @@ p.description{
 	text-align: center;
 }
 
+.tab{
+	overflow: hidden;
+	background-color: #fbaaaa;
+	border: 1px solid #ffffff;
+}
+
 .tablink{
 	background color:
 }
