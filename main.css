@@ -36,28 +36,29 @@ p.description{
 	border: 1px solid #ffffff;
 }
 
-.tablink{
+.tab button{
 	background color:
 }
 	background-color:rgb(255,179,186,0.6);
-	color: white;
+	float: left;
 	border: none;
 	outline: none;
 	cursor: pointer;
-	padding: 0;
-	margin: 0;
-	font-size: 140%;
-	font-family: monospace;
+	transition: 0.3s;
 }
-.tablink:hover{
+.tab button:hover{
 	background-color: rgb(255,179,186,0.1);
+}
+
+.tab button.active{
+	bckground: color: #ccc;
 }
 
 .tabcontent{
 	color: black;
 	display: none;
-	height: 100%;
-	text-align: center;
+	border: 1px solid #ffffff;
+	border-top: none;
 }
 
 /*
