@@ -3,7 +3,7 @@
 <html>
 
 	<head>
-	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="main.css">
 	</head>
 	
 	<body>
@@ -11,17 +11,37 @@
 			Samantha Chow
 		</h1>
 		
-		<p class= "a">
+		<p class= "description">
 		2nd year
 		Computer Science Student
 		at SFU </p>
+	
+		<button class ="tablink" onclick="openTab(event, 'Home')">Home</button>
+		<button class="tablink" onclick="openTab(event, 'OngoingProjects')">Ongoing Projects</button>
+		<button class="tablink" onclick="openTab(event, 'AboutMe')">About Me</button>
 		
+		<div id = "Home" class="tabcontent">
+		</div>
+		<div id = "OngoingProjects" class="tabcontent">
+			<h3>Stardew Valley Checklist</h3>
+			<p>To keep track of completed collections to ensure a 100% completion rate</p>
+		</div>
+		<div id = "AboutMe" class="tabcontent">
+			<ul>
+				<li>Video Games</li>
+				<li>Sports</li>
+				<li>Drawing</li>
+			</ul>
+		</div>
+		<script src="menutab.js"></script>
+		<!--
 		<ul>
 			<li><a class="active" href="#home">Home</a></li>
 			<li><a href="#project"> Ongoing Projects</a></li>
 			<li><a href="#contact">Contact Info</a></li>
 			<li><a href="#about">About Me</a></li>
 		</ul>
+		-->
 		<div class = "background">
 			<div class = "transbox">
 				<p> Test text box </p>
