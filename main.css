@@ -14,7 +14,7 @@ body {
 }
 
 h1{
-	color: #AEC6CF;
+	color: #ffffff;
 	font-family: monospace;
 	font-style: bold;
 	font-weight: 100;
@@ -24,7 +24,7 @@ h1{
 }
 
 p.description{
-	color: #AEC6CF;
+	color: #fffff;
 	font-family: courier;
 	font-size: 110%;
 	text-align: center;
