@@ -1,0 +1,96 @@
+body {
+	/*60% opacity for background */ 
+	background: url("../img/pastel_ocean.jpg") no-repeat cover rgb(255,179,186,0.6);
+}
+
+h1{
+	color: #AEC6CF;
+	font-family: monospace;
+	font-style: bold;
+	font-weight: 100;
+	font-size: 600%;
+	text-align: center;
+	
+}
+
+
+
+p.a{
+	color: #AEC6CF;
+	font-family: courier;
+	font-size: 110%;
+	text-align: center;
+}
+
+ul{
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:rgb(255,179,186,0.6);
+}
+li {
+  text-align: center;
+  display: inline-block;
+  color: #FFFFFF;
+  font-size: 140%;
+  font-family: monospace;
+}
+
+li a {
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(255,179,186,0.1);
+}
+
+div.background {
+
+background: url(green-tile.jpg) repeat;
+
+/*border: 2px solid black; */
+
+}
+
+div.transbox {
+
+margin: 10px;
+
+background-color: #ffffff;
+
+border: 1px solid white; 
+
+opacity: 0.6;
+
+filter: alpha(opacity=60); /* For IE8 and earlier */
+
+position: static;
+
+right: 0px;
+
+left: 170px;
+
+width: 1870px;
+
+height: 1870px;
+
+}
+
+div.transbox p {
+
+margin: 5%;
+
+font-weight: bold;
+
+font-family: Verdana;
+
+font-size: 12px;
+
+color: #000000;
+
+}
