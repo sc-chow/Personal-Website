@@ -25,7 +25,7 @@ h1{
 
 p.description{
 	color: #ffffff;
-	font-family: courier;
+	font-family: monospace;
 	font-size: 110%;
 	text-align: center;
 }
@@ -62,36 +62,7 @@ p.description{
 	border-top: none;
 }
 
-/*
-ul{
-	list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color:rgb(255,179,186,0.6);
-}
-li {
-  text-align: center;
-  display: inline-block;
-  color: #FFFFFF;
-  font-size: 140%;
-  font-family: monospace;
-}
-
-li tab {
-  display: block;
-  color: #FFFFFF;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li tab:hover {
-  background-color: rgb(255,179,186,0.1);
-}
-*/
-
-div.background {
+div.home{
 
 background: url(green-tile.jpg) repeat;
 
