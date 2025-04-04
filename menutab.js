@@ -10,5 +10,6 @@ function openTab(evnt,pageName){
   }
   
   document.getElementById(pageName).style.display = "block";
-  evt.currentTarget.className += "active";
+  
+  evt.currentTarget.className += " active";
 }

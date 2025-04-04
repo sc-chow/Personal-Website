@@ -14,7 +14,7 @@ body {
 }
 
 h1{
-	color: #ffffff;
+	color: #000000;
 	font-family: monospace;
 	font-style: bold;
 	font-weight: 100;
@@ -32,13 +32,12 @@ p.description{
 
 .tabmenu{
 	overflow: hidden;
-	background-color: #fbaaaa;
+	background-color: #fcc1c1;
 	border: 1px solid #000000;
+	font-family:  "Courier New", Courier, monospace;
 }
 
 .tabmenu button{
-	background color:
-}
 	background-color:inherit;
 	float: left;
 	border: none;
@@ -47,8 +46,9 @@ p.description{
 	padding: 14px 16px;
 	transition: 0.3s;
 }
+
 .tabmenu button:hover{
-	background-color: rgb(255,179,186,0.1);
+	background-color: rgba(134, 119, 121, 0.1);
 }
 
 .tabmenu button.active{
